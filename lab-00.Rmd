@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+If the data frame extended to everyone taking this course, there would be a large number of x-axis variables with the majority of the y-axis correlations being 1. As a result, the data would not be very useful since most people have unique hobbies. A better way to display such data could be a pie chart. 
