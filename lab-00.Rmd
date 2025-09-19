@@ -17,15 +17,15 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("Peter Rabbit", "member 1", "member 2", 
-           "member 3", "member 4"),
-  github_username = c("mcgregors-garden", "username 1", "username 2", 
-                      "username 3", "username 4"), 
-  colour = c("powderblue", "colour 1", "colour 2", 
-             "colour 3", "colour 4"),
-  hobby = c("Hopping", "hobby 1", "hobby 2", 
-            "hobby 3", "hobby 4"),
-  favourite_number = c(2, NA, NA, NA, NA)
+  name = c("Beth", "Faaiz", "Mohsin", 
+           "Beatrice"),
+  github_username = c("faaizm26", "bethpeters", "beashek1-spec", 
+                      "mohsinabro06"), 
+  colour = c("orange", "pink", 
+             "orange", "brown"),
+  hobby = c("running", "taekwondo", "karate", 
+            "video games"),
+  favourite_number = c(2, 6, 7, 6)
   )
 
 team_data
@@ -47,19 +47,19 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+The plot displays github_username vs favorite_number, revealing whose favorite number is what.
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Github Username", 
+          y = "Favorite Number",
+          title = "Favorite Number 1-10")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+The command labs() is used to modify axis, legend and plot labels. 
 
 ### Exercise 20
 
